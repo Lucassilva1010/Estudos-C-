@@ -20,7 +20,6 @@ namespace Array
             ss[3] = "Anastacia "; 
             ss[3] = "José ";
 
-
            foreach(string most in  ss)
             {
 
