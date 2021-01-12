@@ -25,7 +25,7 @@ namespace Repetição_While
                                       //i++;// Incremento para não entrar em looping 
                 break;
 
-               
+               // dapsdojasdoja´dmaçdçamd.asnasdasçdasdaka
             }
             
         
