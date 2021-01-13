@@ -12,14 +12,14 @@ namespace Array
             string[] ss = new string[5];// Estatica 
             var nome = new string[5];// Dinamica
 
-               // Setando o meu Arry
-      
-            ss[0] = "Lucas ";
-            ss[1] = "Antonella ";
-            ss[2] = "Lucas ";
-            ss[3] = "Anastacia "; 
-            ss[3] = "José ";
-
+            // Setando o meu Arry
+            for (int i = 0; i < ss.Length; i++)
+            {
+                Console.WriteLine("Digite o Nome: \n");
+                ss[i] = Console.ReadLine();
+            }
+           
+          
            foreach(string most in  ss)
             {
 

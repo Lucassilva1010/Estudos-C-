@@ -4,7 +4,7 @@ namespace Recursiva_NotasAluno
 {
     class Program
     {
-                    
+                  
         static void Main(string[] args)
         {
             
@@ -63,7 +63,7 @@ namespace Recursiva_NotasAluno
 
             Console.WriteLine("Digite a Nota 04 de:" + nome);
             n4 = Convert.ToInt32(Console.ReadLine());
-            med = (n1 + n2 + n3 + n4) / 2;
+            med = (n1 + n2 + n3 + n4) / 4;
 
             if (med >= 7)
             {
