@@ -6,7 +6,7 @@ namespace Para_For
     {
         static void Main(string[] args)
         {
-            
+            // Programa com Bug
             string ss;
 
              Console.WriteLine("Vc deseja executar i programa?");

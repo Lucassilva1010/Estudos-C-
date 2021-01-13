@@ -78,7 +78,8 @@ namespace Case_Switch
                     break;
 
                 default: // Utilizado para definir um padrão, ou até mesmo uma limitação
-                    // Precisamos sempre colocar o Default no final dos Switch, pois ele vai limitar o padrão.
+                    // Precisamos sempre colocar o Default no final dos Switch, 
+                    //pois ele vai limitar o padrão.
                     Console.WriteLine("Esse Mês não existe no nosso calendario!");
                    
                     break;
