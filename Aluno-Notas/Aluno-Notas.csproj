@@ -6,4 +6,17 @@
     <RootNamespace>Aluno_Notas</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Array\Array.csproj" />
+    <ProjectReference Include="..\Case-Switch\Case-Switch.csproj" />
+    <ProjectReference Include="..\Estudos01\Condição IF.csproj" />
+    <ProjectReference Include="..\Lista\Lista.csproj" />
+    <ProjectReference Include="..\Para-For\Para-For.csproj" />
+    <ProjectReference Include="..\Recursiva-NotasAluno\Recursiva-NotasAluno.csproj" />
+    <ProjectReference Include="..\Recursiva\Recursiva.csproj" />
+    <ProjectReference Include="..\Repetição-While\Repetição-While.csproj" />
+    <ProjectReference Include="..\Ternario\Ternario.csproj" />
+    <ProjectReference Include="..\TestedaNet\TestedaNet.csproj" />
+  </ItemGroup>
+
 </Project>

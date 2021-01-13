@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Array;
+using System;
 
 namespace Aluno_Notas
 {
@@ -6,6 +7,8 @@ namespace Aluno_Notas
     {
         static void Main(string[] args)
         {
+            var pessoa = new Pessoa();
+            pessoa.PessoaFalando();
             string nome, s;
 
             int n1, n2, n3, n4;
