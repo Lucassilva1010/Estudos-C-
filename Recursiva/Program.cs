@@ -10,6 +10,7 @@ namespace Recursiva
 
             string numero;
             int i;
+            int merge = 10; 
             Console.WriteLine("Digite um numero:");
             i = Convert.ToInt32(Console.ReadLine());
 
