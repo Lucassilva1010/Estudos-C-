@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace Recursiva
 {
@@ -6,7 +7,10 @@ namespace Recursiva
     {
         static void Main(string[] args)
         {
-            looping(1);    
+
+            //looping(1);
+            //LerArq(@"C:\TESTE\lucas00.txt");
+            LerArq(1);
         }
 
         public static void looping(int a)// Fução recursiva, passando os parametros direto do metodo;
@@ -20,5 +24,41 @@ namespace Recursiva
             }
         }
 
+
+        //Função recursiva, passando valores por parâmetros 
+        // private static void LerArq(string numArq)
+        private static void LerArq(int caminho)
+        // Função declarada para funcionar apenas 
+        //na classe local
+        // Utilizar nomes de variavel nos parâmetros como CamelCase
+        {
+            string arcaminho = @"C:\TESTE\lucas00" + caminho + ".txt";
+            if (File.Exists(arcaminho))
+            {
+                //Inicializando a Variavel com o local do Arquivo (Sempre colocar o local do araquivo correto)
+                //sempre "concatenar com o seu tipo" 
+                //string aar = (@"C:\TESTE\lucas00" + caminho + ".txt");
+                {
+                    //Nesse Instância, é necessario baixar as bibliotecas corretas, como a (FILE.OpemText)
+                    //o Using é uma Instâcia 
+                    using (StreamReader arquivo = File.OpenText(arcaminho))
+                    {
+                        string linha;
+                        // Laço para ler todos os textos dentro dos arquivos
+                        // A Variavel "Arquivo está carregada com o valor passado de "numArq"
+                        //O ReadLine vai lendo linha a linha
+                        while ((linha = arquivo.ReadLine()) != null)
+                        {
+                            //imprimido a varivavel responsvel por todo o carregamento  
+                            Console.WriteLine(linha);
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
     }
 }
