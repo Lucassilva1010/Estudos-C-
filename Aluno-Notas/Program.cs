@@ -23,6 +23,8 @@ namespace Aluno_Notas
                 Console.WriteLine("\nSeja bem Vindo!"+nome);
             Console.Clear();
 
+
+
             Console.WriteLine("Obrigado! \n");
             Console.Clear();
                
@@ -104,6 +106,7 @@ namespace Aluno_Notas
                     Console.WriteLine("Melhore seus estudos! " + nome);
                 }
             }
+
             }
         }
 
